@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
+    "build": "cd frontend && npm run build",
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
     "seed": "node seeder.js"
